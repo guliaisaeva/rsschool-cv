@@ -84,3 +84,18 @@ Worked as a web designer and developer._ [Link to source code](https://github.co
  * **2012-2013**  Studienkolleg Hamburg Propädeutikum /Germany   
  
  * **2005-2010**  Kyrgyz-Turkish University “Manas”(Bachelor),_Radyo,TV and Cinema_/Bishkek-Kyrgystan  
+
+ ### LANGUAGE SKILLS:   
+
+
+  | **LANGUAGE**  | **LEVEL** | 
+  | ----------- | ----------- |
+  | **Kyrgyz** | Native **C2** | 
+  | **Turkish** | Advanced **C2** | 
+  | **Russian** | Advanced **C2** | 
+  | **German** | Upper-intermediate **B2-C1** | 
+  | **English** | Upper-intermediate **B2** |
+       
+_I learned the basics of English at school and English courses.
+After I improved my English language skills with pre-sessional English programm at the University and during internships,student exchange programs abroad.
+I follow all courses related to programming and computer science in English._ 
