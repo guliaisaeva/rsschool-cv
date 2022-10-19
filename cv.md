@@ -57,7 +57,30 @@ Located in Kayseri, Turkey
     }
    }
 
-
 console.log(likes(["Gulia","Alex","Aysal","Teo","Cairo"]));
 
 ```
+### EXPERIANCE:
+
++ **Portfolio website** _-It is a personal website designed in Figma,developed using Html5,Css3,and Javascript tools.
+Worked as a web designer and developer._ [Link to source code](https://github.com/guliaisaeva/MyWebsite)
++ **Tetris Game project** _-It is browser-based online Tetris game designed in Figma ,developed using Html5,Css3,Javascript tools.Designed and developed by me._ [Link to source code](https://github.com/guliaisaeva/bootcamp/tree/main/TetrisTasks) 
++ **Other small projects like heart trial animation,JS quote Generator and more** [Link to source code](https://github.com/guliaisaeva/MyMiniProjectsWithJS)
+   
+### EDUCATION,COURSES,LECTURES:
+ 
+ + **2022-present** JavaScript/Front-end Turkey 2022, [Rolling Scopes School](https://rs.school/)  
+ + **2022-present** Udemy,The Web Developer Bootcamp 2022 by Colt Steele  
+ + **2022**         Udemy,JavaScript: Understanding the Weird Parts by Anthony Alicea
+ + **2021**         IT online Bootcamp ,Web Development(Html,Css,Javascript) 
+ + **2021**         FreeCodeCamp,_Responsive Web Design_
+ + **2021**         W3school, _Html/Css/Js courses_  
+ + **2020-2021**    IT school “Jyldyz Academy”,Web Development(Html,Css,Javascript)
+ + **Codecademy,Virtual event:**_Junior Developer Interview Prep w/ Devops Consultant Mariana Bocoi Part 1: Soft Skills! How did it go?_ 
+
+
+* **2013-2015**  Hamburg University(Master Degree of Art) in Performance Studies /Germany  
+  
+ * **2012-2013**  Studienkolleg Hamburg Propädeutikum /Germany   
+ 
+ * **2005-2010**  Kyrgyz-Turkish University “Manas”(Bachelor),_Radyo,TV and Cinema_/Bishkek-Kyrgystan  
