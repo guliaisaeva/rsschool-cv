@@ -5,8 +5,159 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV|Gulia Isaeva|Front-End Web Developer</title>
+    <!-- link to style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link to google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap" rel="stylesheet">
+    <!-- link to fontawesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+
 </head>
 <body>
-    
-</body>
-</html>
+    <!-- HEADER -->
+ <header  class="header">
+
+    <!-- navigation -->
+    <nav class="nav bd-grid">
+        <div class="nav__logo"><a href="#home">Gulia</a></div>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link active" href="#home">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+                <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+                <li class="nav__item"><a class="nav__link" href="#code">Code</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Projects</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Education</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Contacts</a></li>
+            </ul>
+        </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+    </nav>    
+ </header>
+ <!-- MAIN -->
+<main class="main">
+    <!-- HOME -->
+    <section class="home bd-grid" id="home">
+            <div class="home__data">  
+                <h1 class="home__title">I am <span class="home__title-color">Gulia</span></h1>
+                <p>Junior Front-End  Web Developer</p>
+                <a href="#"class="button">Contact</a>
+            </div>
+            <div class="home__social">
+                <a class="home__social-icon" href="#"><i class="fa-brands fa-github icon"></i></a>
+                <a class="home__social-icon" href="#"><i class="fa-solid fa-envelope icon"></i></a>
+            </div>
+             <div class="home__img">
+                <img src="images/gulia.png" alt="gulia">
+             </div>
+       </div> 
+
+    </section> 
+    <!-- ABOUT -->
+    <section class="about" id="about">
+    <h3 class="section-title">About</h2>
+
+    <div class="about__container bd-grid">
+        <div class="about__img">
+            <img src="images/flower.gif" alt="flower">
+        </div>
+        <div >
+            <h3 class="about__subtitle">I am Gulia</h3>
+            <p class="about__text">Creative detail-oriented junior Front End Web Developer. <br>
+                Skilled in designing,developing,troubleshooting responsive websites. <br>   
+                Proficient in HTML5,CSS3,JAVASCRIPT(ES6),user interface and user experience (UI/UX) and in learning process of modern libraries and frameworks.
+                Experienced with Trello,Miro,Notion.
+                Well self-organized,team player,self-motivated and passionate to learn new skills and solve problems.</p>
+        </div>
+    </div>
+    </section>
+    <!-- SKILLS    -->
+    <section class="skills" id="skills">
+        <h3 class="section-title"> Professional Skills</h2>
+        <div class="skills__container bd-grid">
+        <ul class="skills__data">
+            <li class="skills__name"><i class="fa-brands icon fa-html5"></i><br><span>HTML</span> </li>
+            <li class="skills__name"><i class="fa-brands icon fa-css3-alt"></i><br><span>CSS</span></li>
+            <li class="skills__name"><i class="fa-brands icon fa-square-js"></i><br><span>JS</span></li>
+            <li class="skills__name"><i class="fa-brands icon fa-square-git"></i><br><span>GIT</span></li>
+            <li class="skills__name"><i class="fa-brands icon fa-github"></i><br><span>Github</span></li>
+            <li class="skills__name"><i class="fa-brands icon fa-figma"></i><br><span>Figma</span></li>
+            <li class="skills__name"><iconify-icon icon="file-icons:adobe-photoshop" class="icon" style="color: black;"></iconify-icon><br><span>Photoshop</span></li>
+        </ul>
+    </div>
+    </section> 
+
+     <!-- Example Code -->
+     <section class="exCode" id="code">
+        <h3 class="section-title">Code Example</h2>
+        <div class="exCode__container bd-grid">  
+         <pre>
+     <em class="exCode__subtitle">
+     Task:
+     Implement the function which takes an array containing the names of people that like an item.
+     It must return the display text as shown in the examples:
+     </em> 
+
+      []                                -->  "no one likes this"  
+      ["Gulia"]                         -->  "Gulia likes this"   
+      ["Jacob", "Alex"]                 -->  "Jacob and Alex like this"   
+      ["Max", "John", "Mark"]           -->  "Max, John and Mark like this"   
+      ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this" 
+
+    <code class="jsCode">
+        function likes(arr){
+   
+            switch(true){ 
+              case arr.length==0:
+               return arr + "no one likes this";
+               case arr.length==1 :
+               return arr + " likes this";
+               case arr.length==2 :
+               return `${arr[0]} and ${arr[1]} like this`;
+               case arr.length==3 :
+               return `${arr[0]}, ${arr[1]} and ${arr[2]} like this`;
+               case arr.length>=4 :
+               return `${arr[0]}, ${arr[1]} and ${arr.length-2} others + like this`;
+          }
+         }
+
+      console.log(likes(["Gulia","Alex","Aysal","Teo","Cairo"]));
+
+    </code>
+   </pre>
+  </div>
+ </section>
+ </main>
+ <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+ <script>
+
+    // JS Show Menu
+   
+    const toggleEl=document.getElementById("nav-toggle")
+ 
+    const navEl=document.getElementById("nav-menu");
+ 
+    toggleEl.addEventListener("click",()=>{
+        toggleEl.classList.toggle("show");
+        navEl.classList.toggle("show");
+    })
+
+    // active and show menu
+    const navLink=document.querySelectorAll(".nav__link");
+    function linkAction(){
+        navLink.forEach(link=>link.classList.remove("active"))
+        this.classList.add('active');
+    //     // remove menu
+        const navMenu=document.getElementById("nav-menu")
+        navMenu.classList.remove("show")
+    }
+    navLink.forEach(link=>link.addEventListener("click",linkAction))
+ </script>
+ 
+ </body>
+</html> 
