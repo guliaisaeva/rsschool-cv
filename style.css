@@ -426,7 +426,23 @@ tr:hover {
   background-color: #dddddd;
 
 }
-
+/*--------Contacts----------*/
+.contacts__list{
+display: flex;
+justify-content: center;
+gap: 2rem;
+}
+.contacts__list li i{
+  background-color: var(--accent-color);
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+  color: white;
+  border: 3px dotted #fc4cb5;
+}
+.contacts__list li i:hover{
+  background-color: #fc4cb5;
+}
 /*--------Footer----------*/
 .footer{
   background-color:#003366 ;
@@ -441,13 +457,21 @@ align-items: center;
 gap: 2rem;
 margin-bottom: var(--mb-3);
 }
+.footer__social i,.footer__social img{
+  color: var(--dark-color);
+  background-color: var(--light-color);
+  padding:0.5rem;
+  border-radius: 10%;
+  object-fit: cover;
+  border: 5px solid var(--accent-color);
+}
 
 .footer span{
   font-weight: var(--font-weight);
   color: red;
 }
-.footer__social i:hover{
- text-decoration: underline;
+.footer__social i:hover,.footer__social img:hover{
+background-color: #fc4cb5;
  }
 
 /*--------MEDIA QUERIES----------*/
