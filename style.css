@@ -315,7 +315,9 @@ transition: 2s ease;
 .skills__name span {
   font-size: var(--normal-font-siz);
 }
-
+.photoshopIcon{
+  color: var(--dark-color);
+}
 /*------------Example Code---------------*/
 .exCode__container {
   row-gap: 2rem;
