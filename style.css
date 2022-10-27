@@ -176,7 +176,6 @@ img {
 .nav__logo-link{
   font-size: 2rem;
   color: var(--accent-color);
-  
 }
 .nav__logo-link span{
   color: #fc4cb5;
@@ -238,7 +237,7 @@ img {
   width: 250px;
   background-color: #33cc66;
   border-radius:50%;
-} 
+}
 .home__img:hover{
 
 padding: 1rem 1rem 0 1rem;
@@ -333,6 +332,11 @@ transition: 2s ease;
   white-space: pre-wrap;
   word-break: break-all;
 }
+pre{
+  white-space: pre-wrap;
+  word-break: break-all;
+  line-height: 1;
+}
 /*------------Experiance---------------*/
 .experiance__container {
   row-gap: 2rem;
@@ -347,7 +351,6 @@ transition: 2s ease;
   align-items: center;
   gap: 1.5rem;
   padding: 2rem;
-
 }
 .project__name{
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
@@ -394,7 +397,7 @@ transition: 2s ease;
 }
 .education__list li:hover{
  list-style: circle;
-color: var(--bg-color); 
+color: var(--bg-color);
 }
 hr{
   width: 100%;
@@ -407,20 +410,19 @@ hr{
   margin-bottom: var(--mb-6);
 }
 
-table {
+table{
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
   background-color: #fc4cb5;
 }
 
-td, th {
+td, th{
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
-
 }
-tr:hover {
+tr:hover{
   background-color: #dddddd;
 }
 .languages p{
@@ -469,7 +471,9 @@ margin-bottom: var(--mb-3);
   object-fit: cover;
   border: 5px solid var(--accent-color);
 }
-
+.footer__social img{
+  width:64px;
+}
 .footer span{
   font-weight: var(--font-weight);
   color: red;
@@ -517,7 +521,6 @@ background-color: #fc4cb5;
   .nav__logo-link {
     color:var(--accent-color);
     font-size: var(--h2-font-size);
-
   }
   .home{
     height: 100vh;
@@ -537,9 +540,3 @@ background-color: #fc4cb5;
     width: 300px;
   }
 }
-/* @media screen and (min-width: 1024px){
-  .bd-grid{
-    margin-left: auto;
-    margin-right: auto;
-  }
-} */
