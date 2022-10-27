@@ -394,8 +394,11 @@ transition: 2s ease;
 }
 .education__list li:hover{
  list-style: circle;
-color: var(--bg-color);
-  
+color: var(--bg-color); 
+}
+hr{
+  width: 100%;
+  border: 1px dashed black;
 }
 /*--------Languages----------*/
 .languages{
@@ -438,14 +441,14 @@ align-items: center;
 gap: 2rem;
 margin-bottom: var(--mb-3);
 }
+
 .footer span{
   font-weight: var(--font-weight);
   color: red;
 }
-hr{
-  width: 100%;
-  border: 1px dashed black;
-}
+.footer__social i:hover{
+ text-decoration: underline;
+ }
 
 /*--------MEDIA QUERIES----------*/
 
