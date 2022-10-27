@@ -412,7 +412,6 @@ table {
   border-collapse: collapse;
   width: 100%;
   background-color: #fc4cb5;
-
 }
 
 td, th {
@@ -421,10 +420,15 @@ td, th {
   padding: 8px;
 
 }
-
 tr:hover {
   background-color: #dddddd;
-
+}
+.languages p{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 80%;
 }
 /*--------Contacts----------*/
 .contacts__list{
