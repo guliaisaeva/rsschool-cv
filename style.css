@@ -144,9 +144,9 @@ img {
     top: var(--header-height);
     right: -100%;
     width: 50%;
-    height: 80%;
+    height: 100%;
     padding: 2rem;
-    border-radius: 50% 0 50% 50%;
+    border-radius:10px;
     background-color: var(--bg-color);
     transition: 0.5s ease;
     text-align: center;
